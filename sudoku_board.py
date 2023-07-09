@@ -53,7 +53,7 @@ class SudokuBoard:
                 self.cells[row*MAX_NUM+col].num = num
                 i = i + 1
             num = num + 1
-        self.print_board()
+        #self.print_board()
    
     def print_board(self):
         for i in range(len(self.cells)):
